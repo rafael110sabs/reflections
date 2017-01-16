@@ -1,0 +1,41 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	It as helped me identifying much faster were the bug was. As in the case of this exercise were the bug was a
+typo, it prevented me of having to read several lines of code to just find a mistyped character.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	By easily accessing an older version of a file I can understand what as changed from version to version.
+	I can also have a working backup of a file, in case something goes wrong.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	For automatic version saving the cons are:
+	-When a program automatically saves versions it will generate more versions then it's needed and we will
+	end up a bigger history log. If we need to search for some change, it will be harder.
+	-It can store code during creation and we can end with a version that may not compile because it is not complete.
+	The pros are:
+	-For those who easily forget to save their work, having it saved periodicaly is good.
+	For Manual commiting the pros are:
+	-The size can be set by who's commiting. That results in less history and more logical and clear commits.
+	-You can insert comment's upon commiting and that makes it easier to look up for a change.
+	The cons are:
+	-It depends on ones judgement so commit sizes may vary.
+	-You can forget to save your version, leading up to huge amounts of changes to a file being recorded at once.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google docs, treat each file separately?
+
+	Git is built for code editing. When creating and modifying code it is sometimes necessary to track multiple files together
+	as they might share dependency.
+
+How can you use the commands git log and git diff to view the history of files?
+	
+	I can use the command git log to show me the commit history of the repository. After that I can see what lines have been added or removed by using the command git diff commit_id1 commit_id2.
+
+How might using version control make you more confident to make changes that could break something?
+
+	That way I always can go back to a version of my code that is working and see what changes might have been involved with the bug.
+
+How do you want to use git?
+	
+	To start I will use it to store projects from university, so that my group colleagues can have access to the files and work on them.
