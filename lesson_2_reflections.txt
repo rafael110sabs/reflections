@@ -3,5 +3,9 @@ What happens when you initialize a repository? Why do you need to do it?
 	When I initialize a repository the .git folder is created in the directory that I'm in. This folder contains metadata about the repository( commit logs, etc.). If the .git folder is not created then the directory is not a git repository.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-	
-	In the working directory there can be two types of files: Untracked and tracked. In the repository there are only the files we specified to be commited (tracked). The staging area is where we specify the files we want to commit. 
+
+	In the working directory there can be two types of files: Untracked and tracked. In the repository there are only the files we specified to be commited (tracked). The staging area is where we specify the files we want to commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	By using the command git diff with no arguments. That will compare the files changes in the directory with the ones in the staging area. The initial files in the staging area are equal to those in the Head commit.
