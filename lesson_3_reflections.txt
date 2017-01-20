@@ -18,5 +18,8 @@ What is the benefit of having a copy of the last known state of the remote store
 
 How would you collaborate without using Git or Github? What would be easier, and what would be harder?
 
-	I would use another version-control or file share platform. If i were to use, for example, dropbox, the easiest part would be file saving and file changing. It would need less commands to perform an action. But merging some work together should be a nightmare. And, after all, git command line is easy once you get used to it.
+	I would use another version-control or file share platform. If I were to use, for example, dropbox, the easiest part would be file saving and file changing. It would need less commands to perform an action. But merging some work together should be a nightmare. And, after all, git command line is easy once you get used to it.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	Everytime I want to work on a new feature a new branch should be created. This way there is no messing around with the original files if something goes wrong and I can keep the master up-to-date with the remote master. Also, by creating a new branch I have the possibility to later do a pull request and get feedback for my changes before merging them in the master.
